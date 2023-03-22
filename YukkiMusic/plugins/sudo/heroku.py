@@ -308,7 +308,7 @@ async def update_(client, message, _):
             try:
                 await app.send_message(
                     x,
-                    f"{config.MUSIC_BOT_NAME} has just restarted herself. Sorry for the issues.\n\nStart playing after 10-15 seconds again.",
+                    f"{config.MUSIC_BOT_NAME} Yeniden Başlatıldı. Böldüğüm için Üzgünüm.\n\n10-15 Saniye Sonra Tekrar Kullanabilirsiniz.Sorun Yaşarsanız /restart Atınız.",
                 )
                 await remove_active_chat(x)
                 await remove_active_video_chat(x)
