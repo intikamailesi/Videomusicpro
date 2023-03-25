@@ -39,7 +39,7 @@ async def speedtest_function(client, message):
     m = await message.reply_text("Hız Testi")
     loop = asyncio.get_event_loop()
     result = await loop.run_in_executor(None, testspeed, m)
-    output = f"""**<<<<<<Sonuçlar>>>>**
+    output = f"""**HızTestı Sonuc**
     
 <u>**Client:**</u>
 **__ISP:__** {result['client']['isp']}
