@@ -54,7 +54,7 @@ async def admins(cli, message: Message, _, chat_id):
         return await message.reply_text(
             _["admin_25"].format(message.from_user.first_name, state)
         )
-    elif state.lower() == "disable":
+    elif state.lower() == "iptal":
         await set_loop(chat_id, 0)
         return await message.reply_text(_["admin_27"])
     else:
