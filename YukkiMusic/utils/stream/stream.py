@@ -302,9 +302,12 @@ async def stream(
             if video:
                 await add_active_video_chat(chat_id)
             button = telegram_markup(_, chat_id)
-            run = await app.send_message(
+            run = await app.send_photo(
                 original_chat_id,
-                _["stream_4"].format(
+                photo=config.TELEGRAM_VIDEO_URL
+                if video
+                else config.TELEGRAM_AUDIO_URL,
+                caption=_["stream_4"].format(
                     title, link, duration_min, user_name
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
