@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "20235833"))
 API_HASH = getenv("API_HASH", "c3afbe7a9aae05ac8959fc56c74f4ced")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5805548912:AAESQo8Xm_hOTzSRucXZ3rNilA3hWcnRUus")
+BOT_TOKEN = getenv("BOT_TOKEN", "6292909074:AAGyq07vvxw1MAWDgr9A3wF-HNlzNThY7nM")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sahin:kayagibie1@cluster.gx7hgsg.mongodb.net/?retryWrites=true&w=majority")
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001659634929"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VideoMusicproBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VideoMuzikproBot")
 
 # Your User ID.
 OWNER_ID = list(
@@ -91,7 +91,7 @@ AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "True")
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 # Time sleep duration For Youtube Downloader
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
