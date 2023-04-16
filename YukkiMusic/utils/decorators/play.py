@@ -32,7 +32,7 @@ def PlayWrapper(command):
         if PRIVATE_BOT_MODE == str(True):
             if not await is_served_private_chat(message.chat.id):
                 await message.reply_text(
-                    "**Üçretli Müzik Botu**\n\nBu Botu Kullanabilmeniz İçin Chat'e /id yazarak Grup İd'sini bize @İntikamKurucusu Veya @AtomFast PM atarak izin vermesini İsteyin.."
+                    "**💰Ücretli Müzik Botu💰**\n\nBu Botu Kullanabilmeniz İçin Chat'e /id yazarak Grup İd'sini bize @intikamKurucusu Veya @AtomFast PM atarak izin vermesini İsteyin..\n@MissEkibi"
                 )
                 return await app.leave_chat(message.chat.id)
         if await is_commanddelete_on(message.chat.id):
