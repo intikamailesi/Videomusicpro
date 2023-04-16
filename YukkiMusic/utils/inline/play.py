@@ -129,6 +129,12 @@ def stream_markup(_, videoid, chat_id):
 
 def telegram_markup(_, chat_id):
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+         ],
          [
             InlineKeyboardButton(
                 text=_["PL_B_12"],
@@ -148,12 +154,6 @@ def telegram_markup(_, chat_id):
             )
         ],
         [
-            InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
-            ),
-         ],
-         [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             ),
@@ -213,6 +213,12 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
+                text=_["P_B_3"],
+                callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text=_["PL_B_12"],
                 url=f"https://t.me/VideoMuzikKayit",
             )
@@ -230,12 +236,6 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
             )
         ],
         [
-            InlineKeyboardButton(
-                text=_["P_B_3"],
-                callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
-            ),
-         ],
-         [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
