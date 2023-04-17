@@ -244,7 +244,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**Özel Müzik Botu**\n\nYalnızca sahibinden yetkili sohbetler için. Sahibimden önce sohbetinize izin vermesini isteyin."
+                "**💰Ücretli Müzik Botu💰**\n\nBu Botu Kullanabilmeniz İçin Chat'e /id yazarak Grup İd'sini bize @intikamKurucusu Veya @AtomFast PM atarak izin vermesini İsteyin..\n@MissEkibi"
             )
             return await app.leave_chat(message.chat.id)
     else:
