@@ -33,7 +33,7 @@ DELETEPLAYLIST_COMMAND : ["listemitemizle"]
 
 # Tools
 QUEUE_COMMAND : ["sira","ksira", "player", "cplayer", "playing", "kplaying"]
-SONG_COMMAND : ["indir", "video"]
+SONG_COMMAND : ["indirrrrr", "videooooo"]
 BUL_COMMAND : ["bulllll"]
 LYRICS_COMMAND : ["söz"]
 
@@ -62,7 +62,7 @@ SUDOUSERS_COMMAND : ["sudolist"]
 ID_COMMAND : ["id"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["reklammmmmmm"]
+BROADCAST_COMMAND : ["reklam"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["grupban"]
