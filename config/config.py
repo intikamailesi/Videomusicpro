@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "20235833"))
 API_HASH = getenv("API_HASH", "c3afbe7a9aae05ac8959fc56c74f4ced")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6292909074:AAGyq07vvxw1MAWDgr9A3wF-HNlzNThY7nM")
+BOT_TOKEN = getenv("BOT_TOKEN", "5834708851:AAE5A9QrDaC6ILZ99RPqSrSwQw8CzEMc9iU")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sahin:kayagibie1@cluster.gx7hgsg.mongodb.net/?retryWrites=true&w=majority")
@@ -37,7 +37,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001659634929"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001984425345")
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "BiVideoMuzikBot")
@@ -136,9 +136,9 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 STRING1 = getenv("STRING_SESSION", "BACG2OYoKndmag8C6zcJVAtJnzXH-X68OUcuyz24P9aLKQbQPeqS9OjTBwc8Uy48TCYJUwR4xaSepzdn2-FGNeAtxYVE-bVyHeosItOxz45VcaJhuZu0OOiQTrE0GxmbIV3WYD98tn-ZRmEUon6eIBprz4Xbb0wqF6eIQ475l-hF38w-0GzbzM0vZhm46QMWRr7E0ThSaanhWl5AA5povz_D453ZKzzuOL9ztxg2I0Ee4iSLyIaTP2NgqkqoOSZK6v45-HcAewz1a7WTvrYfeDsYuKEqZrU_GijAzE7fZcMYsAkq2LDr-BBepOK8NWWrV-Y0FOHTAtQkOBbWWQArK4mPAAAAAS1x5JoA")
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
+STRING2 = getenv("STRING_SESSION2", "BABAPVjbKJzbq8RfDHkmvPJruX2pOIyOiSiDSvDYpBPHbYBvlCAZvOYw82lZ9tWuS8TqRIG5eDmCQ2gaFJDCLKeAQCCgESgkPKCjeoayK1rnGaKdn5SLt8XDknML3yXcYLG4FuT41tjWGcZhqwG9XbAsbwqFhZtszkanMJsJYJupuFfn0qLwN3lMEzttkTPgUiAKpdYNWIkDbWZm1fsE-NVHsbnYe-jcd2x6VGADtcVMooaJeBu5NZ-jDKzopgPoQX0aB2gVc8BWmoY7KKL30b9aO5YXdsx4qu1Q0d615La-3ya9jReZwNu1joryR95d-5K5XQMFs--Uok3oteOLZp2fXaJTZgA")
+STRING3 = getenv("STRING_SESSION3", "BACsaF-PfysvNhel36GG7CzPpL-Tonk-QaoP14k4DLuB5le5osGqly9zvWc06OwJWjw9rBoI8EhPvITaH6wMzrKzGYqzS2IUsk0yWIyoAUYHB9nRrGDef3vyAzWg2GnZlRCjtKxLbBOsKT9JAuRzgM3CG0WwbHhRATPCt-qRpWQCssdiQByYFUnY85JvzZ1bar7al7BYo8qsJjs4Gn0rU-vyH7zFDTlK_U8yVHMN5f5eQO77ZZ6mpctF_C0aD4AcV3CYnGeP2dR28jL3Th2CtlsPMMrsL3XRqHaPHk5ozYaciTk-LUEdJbIbgC2iUpsGEe45k26uZZ2DRhd0hBRcx_XDAAAAAUCOu-YA")
+STRING4 = getenv("STRING_SESSION4", "BAAS41fLp3Ud4xFsOF09P_UoZ14IpxafNqXk1ZdaYJy-Ti-ylVRwcP6M_hVz1TeJzUfoR_WocYNPJHVXwDbdz1q1VrpE3LMyS9aRMT2EzLSHld-og4Fgebpc63CnvbKIS1FoqIHhQs38xwgGO02374mSp2xu2M4Vc_DrRs4p5sXrhxQql7wl6x2jW5HsTZq9cVIppo7sPwDDgsRuGAkOsIyKCpzvHIk3ml_AMmuQFt2-40F4pbQhFrsYDBxEo6fz5wxhHSXPkLpTNpil8lQus253lPjHqWYPry9MdyUdkuq2huvrfo9QQ8Ponj3of6-Ouh8CoySX6MVvyFPE-AsVxbqvAAAAAVi689kA")
 STRING5 = getenv("STRING_SESSION5", None)
 
 
