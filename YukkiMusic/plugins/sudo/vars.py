@@ -87,10 +87,10 @@ async def varsFunc(client, message):
     owner_id = " ,".join(owners)
     tg_aud = convert_bytes(config.TG_AUDIO_FILESIZE_LIMIT)
     tg_vid = convert_bytes(config.TG_VIDEO_FILESIZE_LIMIT)
-    text = f"""**VideoMuzikBot:**
+    text = f"""**BiVideoMuzikBot:**
 
 **<u>Hakkımızda</u>**
-`Kanalımız` : @VideoMuzikKomutlar
+`Kanalımız` : @BiVideoMuzikKomutlar
 `Grubumuz` : @sohbet_mavi_muhabbet
 `Yapımcım` : @MissSahip && @intikamkurucusu
     """
