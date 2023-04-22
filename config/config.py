@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001659634929"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VideoMuzikproBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "BiVideoMuzikBot")
 
 # Your User ID.
 OWNER_ID = list(
@@ -65,7 +65,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/VideoMuzikKomutlar"
+    "SUPPORT_CHANNEL", "https://t.me/BiVideoMuzikKomutlar"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
